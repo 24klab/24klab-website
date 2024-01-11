@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0px auto;
     padding: 0px;
     max-width: 800px;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    color: #201932;
-    background-color: white;
+    color: white;
+    background-color: black;
     text-shadow: 0 25px 25px rgba(0,0,0,.15);
 }
 
@@ -24,17 +23,19 @@ body {
 
 .header {
     padding: 5px;
+    border-top: 2px solid;
     border-bottom: 2px solid;
     border-color: #4a4b4ef9 ;
     text-align: center;
 }
 
 .heading {
-    color: #201932;
+    color: white;
 }
 
 .subheading {
     color: grey;
+    margin-bottom: 5px;
 }
 
 .ayush24k {
@@ -48,8 +49,4 @@ body {
 
 section {
     margin-bottom: 20px;
-}
-
-p {
-    font-size: 1em;
 }
