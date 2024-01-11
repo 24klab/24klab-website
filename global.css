@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 800px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    color: #201932;
+    background-color: white;
+    text-shadow: 0 25px 25px rgba(0,0,0,.15);
+}
+
+.main-container {
+    min-height: 100vh;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: #4a4b4ef9;
+}
+
+.header {
+    padding: 5px;
+    border-bottom: 2px solid;
+    border-color: #4a4b4ef9 ;
+    text-align: center;
+}
+
+.heading {
+    color: #201932;
+}
+
+.subheading {
+    color: grey;
+}
+
+.ayush24k {
+    color: #EA37A3;
+}
+
+.content {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+}
